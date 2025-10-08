@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/GIFCoffee',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -10,8 +11,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Wenn dein Repository nicht im Root liegt, passe basePath an:
-  // basePath: '/repository-name',
 }
 
 export default nextConfig
