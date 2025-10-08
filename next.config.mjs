@@ -2,6 +2,8 @@
 const nextConfig = {
   output: 'export',
   basePath: '/GIFCoffee',
+  assetPrefix: '/GIFCoffee',
+  trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
